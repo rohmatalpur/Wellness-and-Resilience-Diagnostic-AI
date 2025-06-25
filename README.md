@@ -20,8 +20,6 @@ An AI-based virtual therapist that diagnoses and responds to user emotions in re
 - Session history tracking and real-time storage in cloud database (e.g., Firebase)
 - Supports local development via XAMPP server
 
----
-
 ##  Getting Started
 
 ###  Backend Setup (Python)
@@ -46,3 +44,10 @@ An AI-based virtual therapist that diagnoses and responds to user emotions in re
     Use localhost for API testing if the backend runs locally
 
     Optionally use ngrok or Firebase to expose the backend to your mobile app
+
+###  Git LFS Instructions
+
+    git lfs install
+    git clone https://github.com/rohmatalpur/Wellness-and-Resilience-Diagnostic-AI.git
+    cd Wellness-and-Resilience-Diagnostic-AI
+    git lfs pull
