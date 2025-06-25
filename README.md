@@ -1,13 +1,7 @@
 # Wellness and Resilience Diagnostic AI
 
-![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Stars](https://img.shields.io/github/stars/rohmatalpur/Wellness-and-Resilience-Diagnostic-AI?style=social)
-![Forks](https://img.shields.io/github/forks/rohmatalpur/Wellness-and-Resilience-Diagnostic-AI?style=social)
-
 An AI-based virtual therapist that diagnoses and responds to user emotions in real-time conversations using a combination of **retrieval-augmented generation (RAG)** and **Meta’s LLaMA 3 8B 8192** model.
 
----
 
 ##  Project Overview
 
@@ -17,9 +11,8 @@ An AI-based virtual therapist that diagnoses and responds to user emotions in re
 - **Dataset**: [DAIC-WOZ](https://dcapswoz.ict.usc.edu/wwwdaicwoz/) 
   → 189 conversations and 47,000+ utterances used to train emotion detection models
 
----
 
-## ✨ Features
+## Features
 
 - Emotion-aware AI chatbot that responds empathetically to users
 - Detects emotions in user text input using fine-tuned deep learning models
@@ -29,16 +22,7 @@ An AI-based virtual therapist that diagnoses and responds to user emotions in re
 
 ---
 
-## 📁 Folder Structure
-
-Wellness-and-Resilience-Diagnostic-AI/
-├── warda-backend/ # Python backend: LLaMA model, RAG, emotion detection
-│ └── requirements.txt
-├── Warda_Therapist/ # Android Studio app: mobile frontend
-├── .gitattributes # Git LFS configuration
-└── README.md
-
-## 🚀 Getting Started
+##  Getting Started
 
 ###  Backend Setup (Python)
 
