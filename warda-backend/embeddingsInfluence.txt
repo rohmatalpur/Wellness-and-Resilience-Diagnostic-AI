@@ -1,0 +1,218 @@
+(mental-health-bot) seul-lobo@seul-lobo:~/universityEi/FYP-II/APP/warda-backend$ python embedding_evaluation_tool.py
+Loaded 47400 embeddings successfully
+Loaded transcript data with 47400 rows
+Found 189 unique sessions
+Loaded sentence transformer model successfully
+
+
+========== Testing Query: 'I've been feeling really sad lately and I don't know why' ==========
+
+Top 5 similar texts for query: 'I've been feeling really sad lately and I don't know why'
+
+--- Result 1 (Score: 0.9518) ---
+lately i've been feeling depressed
+
+--- Result 2 (Score: 0.9384) ---
+<sigh> stressed um uh lately i've been really sad and i don't know why  
+
+--- Result 3 (Score: 0.9271) ---
+more than somewhat i've been sad lately
+
+--- Result 4 (Score: 0.9247) ---
+my life is very strange right now so there are a lot of reasons to feel down
+
+--- Result 5 (Score: 0.9237) ---
+i've been feeling kind of tired and low level depressed and like not feeling a lot of options
+
+Generating response WITHOUT context...
+Generating response WITH context...
+
+=== Response WITHOUT Context ===
+I'm so sorry to hear that you're feeling sad and struggling to understand why. It can be really frustrating and unsettling when we're not sure what's causing our emotions. First and foremost, please know that you're not alone in this feeling. Many people experience periods of sadness without a clear reason, and it's okay to acknowledge and validate those feelings.
+
+Can you tell me more about what's been going on lately? Have you noticed any changes in your routine, relationships, or environment that might be contributing to your sadness? Sometimes, small changes can add up and affect our mood.
+
+=== Response WITH Context ===
+I'm so sorry to hear that you've been feeling really sad lately. It can be really tough to understand why we're feeling certain emotions, and it's okay that you're struggling to put your finger on it.
+
+Can you tell me more about what's been going on in your life that might be contributing to these feelings of sadness? Sometimes just talking about what's happening can help us start to untangle things. Are there any specific situations or events that have been weighing on your mind?
+
+Remember, you're not alone in this feeling. Depression can be a really isolating experience, but it's not uncommon, and there are people who care about you and want to support you.
+
+=== Context Influence Analysis ===
+Response similarity: 0.9540 (lower = more different)
+Max sample similarity: 0.8856 (higher = more similar to context)
+Avg sample similarity: 0.8772
+Influence score: 0.4616
+Moderate influence: The context somewhat affected the response
+
+
+========== Testing Query: 'I'm having trouble sleeping because of stress at work' ==========
+
+Top 5 similar texts for query: 'I'm having trouble sleeping because of stress at work'
+
+--- Result 1 (Score: 0.9015) ---
+take off work and <yawn> <sniffle> be in a different environment 'cause my job is stressful and <sniffle>
+
+--- Result 2 (Score: 0.8943) ---
+i have a hard time falling asleep
+
+--- Result 3 (Score: 0.8916) ---
+just haven't been able to sleep well
+
+--- Result 4 (Score: 0.8847) ---
+it's not easy for me to sleep
+
+--- Result 5 (Score: 0.8846) ---
+i feel a lot of stress and pressure
+
+Generating response WITHOUT context...
+Generating response WITH context...
+
+=== Response WITHOUT Context ===
+I'm so sorry to hear that you're struggling with sleep due to stress at work. That can be really tough to deal with. It sounds like you're feeling overwhelmed and possibly like you're not getting the rest your body needs.
+
+Can you tell me a bit more about what's been going on at work that's causing you stress? Is it a specific project, a person, or just the general workload? I'm here to listen and try to understand what you're going through.
+
+Also, have you noticed any patterns or triggers that might be contributing to your difficulty sleeping? For example, do you find yourself lying awake at night thinking about work-related things, or do you have trouble winding down before bed?
+
+=== Response WITH Context ===
+I'm so sorry to hear that you're struggling with sleep and that your job is causing you a lot of stress. It's completely understandable to feel overwhelmed and exhausted when you're dealing with a high-stress environment. 
+
+Can you tell me more about what specifically is causing you stress at work? Is it a particular task, project, or person that's making it hard for you to relax and unwind?
+
+=== Context Influence Analysis ===
+Response similarity: 0.9737 (lower = more different)
+Max sample similarity: 0.8841 (higher = more similar to context)
+Avg sample similarity: 0.8556
+Influence score: 0.4410
+Moderate influence: The context somewhat affected the response
+
+
+========== Testing Query: 'I'm worried I might have anxiety, what are the symptoms?' ==========
+
+Top 5 similar texts for query: 'I'm worried I might have anxiety, what are the symptoms?'
+
+--- Result 1 (Score: 0.8841) ---
+things that i'm worried about
+
+--- Result 2 (Score: 0.8814) ---
+i'm a little nervous
+
+--- Result 3 (Score: 0.8786) ---
+very anxious
+
+--- Result 4 (Score: 0.8778) ---
+anxiety 
+
+--- Result 5 (Score: 0.8748) ---
+anxious and nervous and i mean what if 
+
+Generating response WITHOUT context...
+Generating response WITH context...
+
+=== Response WITHOUT Context ===
+I'm here for you, and I want you to know that it's completely normal to feel worried about your mental health. It takes a lot of courage to acknowledge your concerns and seek help.
+
+Anxiety is a common condition that affects many people, and it's not something to be ashamed of. It's like having a constant companion that can be overwhelming at times, but with the right tools and support, you can learn to manage it.
+
+Some common symptoms of anxiety include:
+
+* Feeling restless, on edge, or tense
+* Difficulty concentrating or making decisions
+* Irritability or mood swings
+* Feeling overwhelmed or like you're going to lose control
+* Difficulty sleeping or insomnia
+* Physical symptoms like a racing heart, sweating, or trembling
+* Avoiding certain situations or activities due to fear or worry
+
+But here's the thing: everyone experiences anxiety differently, and it's not just about the symptoms. It's about how it affects your daily life and relationships. Do you find yourself avoiding certain situations or people because of anxiety? Are there certain triggers that set you off? Do you feel like you're constantly worrying about something, even when there's no apparent reason?
+
+Remember, I'm here to listen and support you. We can work together to explore your concerns and develop strategies to help you cope with anxiety. And if you need additional help, I can remind you that there are many resources available, such as therapists, support groups, and online resources.
+
+You're not alone in this, and I'm here to help you feel more grounded and supported. How are you feeling right now, and what do you think might be contributing to your worries about anxiety?
+
+=== Response WITH Context ===
+I'm so glad you reached out and shared your concerns with me. It takes a lot of courage to acknowledge and express worries about our mental health. I'm here to listen and support you.
+
+Firstly, please know that it's completely normal to feel worried or uncertain about your mental health. Anxiety is a common experience that many people face. It's not a sign of weakness, and it doesn't mean you're flawed or broken. It simply means you're human, and you're trying to navigate a complex world.
+
+Now, regarding your question about symptoms of anxiety, there are many signs that can indicate anxiety is affecting you. Some common symptoms include:
+
+* Feeling restless, on edge, or irritable
+* Having difficulty concentrating or making decisions
+* Experiencing muscle tension, headaches, or stomachaches
+* Worrying excessively about everyday things
+* Having trouble sleeping or experiencing insomnia
+* Feeling like you're constantly "on the go" or "wound up"
+* Avoiding activities or situations because they make you feel anxious
+
+Keep in mind that everyone experiences anxiety differently, and you might not exhibit all of these symptoms. The important thing is to recognize how you feel and acknowledge your emotions.
+
+As we explore this further, I want to reassure you that you're not alone in this. Many people have successfully managed their anxiety and learned to live fulfilling lives. We can work together to identify coping strategies and resources that might help you feel more grounded and in control.
+
+Before we proceed, I want to check in with you. How are you feeling right now? Is there anything specific that's been causing you to worry about anxiety?
+
+=== Context Influence Analysis ===
+Response similarity: 0.9672 (lower = more different)
+Max sample similarity: 0.8541 (higher = more similar to context)
+Avg sample similarity: 0.8335
+Influence score: 0.4332
+Moderate influence: The context somewhat affected the response
+
+
+========== Testing Query: 'My relationship with my partner is making me depressed' ==========
+
+Top 5 similar texts for query: 'My relationship with my partner is making me depressed'
+
+--- Result 1 (Score: 0.8870) ---
+lately i've been feeling depressed
+
+--- Result 2 (Score: 0.8769) ---
+it it impacted a relationship and i also felt really bad about what i did
+
+--- Result 3 (Score: 0.8685) ---
+talking it out with my partner
+
+--- Result 4 (Score: 0.8671) ---
+i starting to feel a little more down
+
+--- Result 5 (Score: 0.8652) ---
+if something goes wrong with my current relationship
+
+Generating response WITHOUT context...
+Generating response WITH context...
+
+=== Response WITHOUT Context ===
+I'm so sorry to hear that you're struggling with depression and feeling overwhelmed by your relationship. It takes a lot of courage to acknowledge and share your feelings, and I'm here to listen and support you.
+
+Can you tell me more about what's been going on in your relationship that's causing you distress? Is it specific issues, like communication problems or trust issues, or is it a general feeling of unhappiness or disconnection? Sometimes talking about the specific challenges can help clarify things and give us a better idea of where to start.
+
+Remember, you're not alone in this feeling. Many people struggle with depression and relationship challenges. It's okay to feel overwhelmed and unsure of what to do next. I'm here to support you, and we can work through this together.
+
+Also, I want to remind you that depression can be a sign of a deeper issue that needs attention. If you're struggling with depression, please know that you don't have to face it alone. There are many resources available to help you, including therapy and support groups. Would you be open to exploring some of these options further?
+
+=== Response WITH Context ===
+I'm so sorry to hear that you're struggling with depression and that it's affecting your relationship with your partner. It takes a lot of courage to acknowledge and share your feelings, so thank you for opening up to me.
+
+Can you tell me more about what's been going on in your relationship that's making you feel depressed? Is it a specific event or conversation that's causing you distress? I'm here to listen and understand your perspective.
+
+Also, how did the conversation with your partner go? Did you feel like they were supportive and understanding, or did it feel like they didn't quite get it?
+
+Remember, you're not alone in this struggle. Many people face challenges in their relationships, and it's okay to feel overwhelmed. I'm here to offer a listening ear and some guidance if you need it.
+
+=== Context Influence Analysis ===
+Response similarity: 0.9730 (lower = more different)
+Max sample similarity: 0.8674 (higher = more similar to context)
+Avg sample similarity: 0.8434
+Influence score: 0.4352
+Moderate influence: The context somewhat affected the response
+
+
+========== SUMMARY ==========
+Average influence score: 0.4427
+Overall, the embeddings have a MODERATE influence on responses
+
+Suggestions for improvement:
+
+Results saved to embedding_evaluation_results.json

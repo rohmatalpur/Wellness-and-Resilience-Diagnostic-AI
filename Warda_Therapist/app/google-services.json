@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1032785549237",
+    "project_id": "warda-therapist",
+    "storage_bucket": "warda-therapist.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032785549237:android:9e3ac792a21c4747ed2bfc",
+        "android_client_info": {
+          "package_name": "com.example.warda_therapist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032785549237-ifq0db4dvtp2nf9qqjqg1vb7ud7mtsld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.warda_therapist",
+            "certificate_hash": "170e26240a595eb10649cead694eb055433a8487"
+          }
+        },
+        {
+          "client_id": "1032785549237-9gv17urf495tti93fhhel0ebec4ear4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYMt2BAwqpguJVu9074CIC5RplgicL674"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032785549237-9gv17urf495tti93fhhel0ebec4ear4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

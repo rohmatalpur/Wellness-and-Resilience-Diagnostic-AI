@@ -1,0 +1,22 @@
+[
+  {
+    "query": "I've been feeling really sad lately and I don't know why",
+    "influence_score": 0.4615741968154907,
+    "interpretation": "Moderate influence: The context somewhat affected the response"
+  },
+  {
+    "query": "I'm having trouble sleeping because of stress at work",
+    "influence_score": 0.4409531056880951,
+    "interpretation": "Moderate influence: The context somewhat affected the response"
+  },
+  {
+    "query": "I'm worried I might have anxiety, what are the symptoms?",
+    "influence_score": 0.4331793785095215,
+    "interpretation": "Moderate influence: The context somewhat affected the response"
+  },
+  {
+    "query": "My relationship with my partner is making me depressed",
+    "influence_score": 0.4351996183395386,
+    "interpretation": "Moderate influence: The context somewhat affected the response"
+  }
+]
